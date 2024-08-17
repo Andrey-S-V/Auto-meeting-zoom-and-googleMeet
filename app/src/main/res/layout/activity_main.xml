@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin_20"
+            android:layout_marginBottom="@dimen/vertical_margin_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TitleName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/horizontal_margin_40"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="50sp"
+                android:text="@string/title_zoom_name"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_white"
+                android:layout_marginStart="@dimen/horizontal_margin_8"
+                android:layout_marginEnd="@dimen/horizontal_margin_4"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/zoom"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/icon_zoom"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:id="@+id/googleMeet"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/icon_google_meet"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listTimeMeeting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transperent"
+                android:layout_marginHorizontal="@dimen/horizontal_margin_16"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textMeetingReference"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size20"
+            android:text="@string/text_meeting_reference"/>
+
+        <TextView
+            android:id="@+id/buttonMeetingReference"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size26"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/vertical_margin_16"
+            android:layout_marginHorizontal="@dimen/horizontal_margin_16"
+            android:paddingHorizontal="@dimen/horizontal_margin_16"
+            android:paddingVertical="@dimen/vertical_margin_6"
+            android:text="@string/join_meeting"
+            android:background="@drawable/bg_button_white"
+            android:textColor="@color/green"
+            android:onClick="ConnectToGoogleMeetWithReference"/>
+
+        <TextView
+            android:id="@+id/textMeetingIdAndPassword"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size20"
+            android:text="@string/meeting_with_id_and_passcode"/>
+
+        <TextView
+            android:id="@+id/buttonMeetingIdAndPassword"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size26"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/vertical_margin_12"
+            android:layout_marginHorizontal="@dimen/horizontal_margin_16"
+            android:paddingHorizontal="@dimen/horizontal_margin_16"
+            android:paddingVertical="@dimen/vertical_margin_6"
+            android:text="@string/join_meeting"
+            android:background="@drawable/bg_button_white"
+            android:textColor="@color/blue"
+            android:onClick="ConnectToMeetWithCode"/>
+
+        <TextView
+            android:id="@+id/textMeetingLink"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size20"
+            android:text="@string/join_zoom_meeting_link"/>
+
+        <TextView
+            android:id="@+id/buttonMeetingLink"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size26"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/vertical_margin_16"
+            android:layout_marginHorizontal="@dimen/horizontal_margin_16"
+            android:paddingHorizontal="@dimen/horizontal_margin_16"
+            android:paddingVertical="@dimen/vertical_margin_6"
+            android:text="@string/join_link"
+            android:background="@drawable/bg_button_white"
+            android:textColor="@color/blue"
+            android:onClick="ConnectToMeetWithLink"/>
+</LinearLayout>

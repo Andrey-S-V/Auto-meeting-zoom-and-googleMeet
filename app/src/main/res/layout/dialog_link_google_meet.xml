@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/vertical_margin_12"
+    android:background="@drawable/bg_button_green">
+
+    <EditText
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/horizontal_margin_12"
+        android:layout_marginVertical="@dimen/vertical_margin_6"
+        android:paddingHorizontal="@dimen/horizontal_margin_8"
+        android:paddingVertical="@dimen/vertical_margin_8"
+        android:background="@drawable/bg_button_white"
+        android:textColorHint="@color/DarkGray"
+        android:textColor="@color/black"
+        android:hint="@string/meeting_link"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/vertical_margin_12"
+        android:layout_marginTop="@dimen/vertical_margin_12"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_button_white"
+            android:text="@string/text_add"/>
+    </LinearLayout>
+</LinearLayout>

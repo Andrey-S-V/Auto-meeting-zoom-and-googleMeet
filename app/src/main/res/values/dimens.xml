@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default records margins, per the Android Design guidelines. -->
+    <dimen name="font_size10">10sp</dimen>
+    <dimen name="font_size12">12sp</dimen>
+    <dimen name="font_size13">13sp</dimen>
+    <dimen name="font_size14">14sp</dimen>
+    <dimen name="font_size15">15sp</dimen>
+    <dimen name="font_size16">16sp</dimen>
+    <dimen name="font_size18">18sp</dimen>
+    <dimen name="font_size17">17sp</dimen>
+    <dimen name="font_size20">20sp</dimen>
+    <dimen name="font_size24">24sp</dimen>
+    <dimen name="font_size26">26sp</dimen>
+    <dimen name="font_size28">28sp</dimen>
+    <dimen name="font_size40">40sp</dimen>
+    <dimen name="font_size140">140sp</dimen>
+
+    <dimen name="vertical_margin_60">60dp</dimen>
+    <dimen name="vertical_margin_40">40dp</dimen>
+    <dimen name="vertical_margin_30">30dp</dimen>
+    <dimen name="vertical_margin_24">24dp</dimen>
+    <dimen name="vertical_margin_20">20dp</dimen>
+    <dimen name="vertical_margin_16">16dp</dimen>
+    <dimen name="vertical_margin_12">12dp</dimen>
+    <dimen name="vertical_margin_8">8dp</dimen>
+    <dimen name="vertical_margin_6">6dp</dimen>
+    <dimen name="vertical_margin_4">4dp</dimen>
+    <dimen name="vertical_margin_2">2dp</dimen>
+    <dimen name="horizontal_margin_50">50dp</dimen>
+    <dimen name="horizontal_margin_40">40dp</dimen>
+    <dimen name="horizontal_margin_24">24dp</dimen>
+    <dimen name="horizontal_margin_20">20dp</dimen>
+    <dimen name="horizontal_margin_16">16dp</dimen>
+    <dimen name="horizontal_margin_12">12dp</dimen>
+    <dimen name="horizontal_margin_8">12dp</dimen>
+    <dimen name="horizontal_margin_6">6dp</dimen>
+    <dimen name="horizontal_margin_4">4dp</dimen>
+
+</resources>

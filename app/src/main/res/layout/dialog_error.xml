@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/vertical_margin_12"
+    android:id="@+id/error_layout"
+    android:background="@drawable/bg_button_blue">
+
+    <TextView
+        android:id="@+id/error_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_error"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size28"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/incorrect_date_entered"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size28"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ok"
+        android:textSize="@dimen/font_size20"
+        android:layout_marginTop="@dimen/vertical_margin_16"
+        android:layout_marginHorizontal="@dimen/horizontal_margin_20"
+        android:background="@drawable/bg_button_white"
+        android:textColor="@color/blue"/>
+</LinearLayout>

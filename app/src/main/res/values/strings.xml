@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Your Helper</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="meeting_password">Meeting Password</string>
+    <string name="meeting_number">Meeting Number</string>
+    <string name="title_zoom_name">Zoom</string>
+    <string name="title_google_meet_name">Google Meet</string>
+    <string name="meeting_with_id_and_passcode">Meeting with ID and Passcode</string>
+    <string name="join_meeting">Join Meeting</string>
+    <string name="join_zoom_meeting_link">Join Zoom Meeting Link</string>
+    <string name="join_link">Join Link</string>
+    <string name="connect_now">Connect Now</string>
+    <string name="connect_later">Connect Later</string>
+    <string name="meeting_link">Meeting Link</string>
+    <string name="text_add">Add</string>
+    <string name="text_meeting_reference">Meeting reference</string>
+    <string name="text_error">Error!</string>
+    <string name="incorrect_date_entered">Incorrect date entered</string>
+    <string name="incorrect_time_entered">Incorrect time entered</string>
+    <string name="text_ok">Ok</string>
+</resources>
